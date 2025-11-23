@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zexis - Premium Lifestyle Store</title>
+    <link rel="stylesheet" href="styls.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="logo">
+            <h1>ZEXIS</h1>
+            <span class="logo-subtitle">Premium Lifestyle</span>
+        </div>
+        <nav class="main-nav">
+            <a href="#sportswear" class="nav-link">Sportswear</a>
+            <a href="#household" class="nav-link">Household</a>
+            <a href="#perfume" class="nav-link">Perfume</a>
+        </nav>
+        <div class="header-actions">
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Zexis</h2>
+            <p>Where Premium Meets Affordability</p>
+        </div>
+    </section>
+
+    <!-- Categories Container -->
+    <div class="categories-container">
+        <!-- Sportswear Category -->
+        <section id="sportswear" class="category-section">
+            <div class="category-header">
+                <h2><i class="fas fa-running"></i> Sportswear</h2>
+                <div class="category-line"></div>
+            </div>
+            <div class="products-grid" id="sportswear-products"></div>
+        </section>
+
+        <!-- Household Category -->
+        <section id="household" class="category-section">
+            <div class="category-header">
+                <h2><i class="fas fa-home"></i> Household Equipment</h2>
+                <div class="category-line"></div>
+            </div>
+            <div class="products-grid" id="household-products"></div>
+        </section>
+
+        <!-- Perfume Category -->
+        <section id="perfume" class="category-section">
+            <div class="category-header">
+                <h2><i class="fas fa-spa"></i> Men's Perfume</h2>
+                <div class="category-line"></div>
+            </div>
+            <div class="products-grid" id="perfume-products"></div>
+        </section>
+    </div>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Shopping Cart -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content cart-modal">
+            <span class="close">&times;</span>
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <div class="cart-total">
+                <h3>Total: ₱<span id="cart-total">0</span></h3>
+                <button id="checkout-btn" class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkout-modal" class="modal">
+        <div class="modal-content checkout-modal">
+            <span class="close">&times;</span>
+            <h2>Checkout</h2>
+            <div class="payment-methods">
+                <h3>Payment Method</h3>
+                <div class="payment-option" data-method="gcash">
+                    <img src="https://logos-world.net/wp-content/uploads/2021/02/GCash-Logo.png" alt="GCash">
+                    <span>GCash</span>
+                </div>
+                <div class="payment-option" data-method="card">
+                    <i class="fas fa-credit-card"></i>
+                    <span>Credit/Debit Card</span>
+                </div>
+                <div class="payment-option" data-method="cod">
+                    <i class="fas fa-money-bill"></i>
+                    <span>Cash on Delivery</span>
+                </div>
+            </div>
+            <div id="payment-form"></div>
+        </div>
+    </div>
+
+    <!-- My Orders Button -->
+    <div id="my-orders-btn">
+        <i class="fas fa-list"></i>
+        <span>My Orders</span>
+    </div>
+
+    <!-- My Orders Modal -->
+    <div id="orders-modal" class="modal">
+        <div class="modal-content orders-modal">
+            <span class="close">&times;</span>
+            <h2>My Orders</h2>
+            <div id="orders-list"></div>
+        </div>
+    </div>
+
+    <script src="zexis.js"></script>
+</body>
+                                                           </html>
