@@ -15,8 +15,12 @@ const products = {
                 "Sole": "Rubber outsole with grip pattern",
                 "Cushioning": "EVA midsole",
                 "Weight": "280g per shoe",
-                "Electrictity Consumption": "None - Manual operation",
-                "Warranty": "6 months"
+                "High-Rebound Midsole Foam": "Better cushioning",
+                "✔ Feather-light feel"
+                "✔ Stable and supportive at any speed"
+                "✔ Soft landing + powerful toe-off"
+                "✔ Very Durable"
+                
             }
         },
         {
