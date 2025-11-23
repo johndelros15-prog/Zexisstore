@@ -16,11 +16,12 @@ const products = {
                 "Cushioning": "EVA midsole",
                 "Weight": "280g per shoe",
                 "High-Rebound Midsole Foam": "Better cushioning",
+                Notes:(
                 "✔ Feather-light feel",
                 "✔ Stable and supportive at any speed",
                 "✔ Soft landing + powerful toe-off",
                 "✔ Very Durable"
-                
+                )
             }
         },
         {
