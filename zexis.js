@@ -326,6 +326,8 @@ function createProductCard(product) {
             <h3 class="product-name">${product.name}</h3>
             <p class="product-price">₱${product.price.toLocaleString()}</p>
             <p class="product-description">${product.description}</p>
+            <h3 class="features-title">Features</h3>
+                <ul id="features-${product.id}" class="features-list"></ul>
             <div class="product-actions">
                 <div class="quantity-control">
                     <button class="quantity-btn" onclick="updateQuantity(${product.id}, -1)">-</button>
@@ -337,7 +339,12 @@ function createProductCard(product) {
                 </button>
             </div>
         </div>
-    `;
+    `).join('');
+    products[category].forEach(product => {
+        const ul = document.getElementById(`features-${product.id}`);
+        ul.innerHTML = product.features
+            ? product.features.map(f => `<li>${f}</li>`).join('')
+            : '<li>No features listed</li>';
     
     card.addEventListener('click', function(e) {
         if (!e.target.closest('.product-actions')) {
