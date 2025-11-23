@@ -183,7 +183,7 @@ const products = {
                 "Warranty": "2 years",
                 "Features": "Voice control, scheduling"
                 "Clap turn on-off function" : "✔",
-                "Adjustable color temperature" : "✔"
+                "Adjustable color temperature" : "✔",
                 "Phone enabled conrtols" : "✔"
             }
         },
