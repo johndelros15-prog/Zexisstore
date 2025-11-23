@@ -181,7 +181,7 @@ const products = {
                 "Connectivity": "WiFi 2.4GHz",
                 "Electrictity Consumption": "9W per bulb",
                 "Warranty": "2 years",
-                "Features": "Voice control, scheduling"
+                "Features": "Voice control, scheduling",
                 "Clap turn on-off function" : "✔",
                 "Adjustable color temperature" : "✔",
                 "Phone enabled conrtols" : "✔"
