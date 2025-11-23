@@ -121,7 +121,7 @@ const products = {
                 "Warranty": "1 year",
                 "App Control": "iOS/Android compatible",
                 "Cleaning features" : "Frontsweep, middle vacuum, back mop",
-                "Professional grade noise reduction, just work without disturbing": "✔"
+                "Professional grade noise reduction just work without disturbing": "✔"
             }
         },
         {
@@ -132,14 +132,14 @@ const products = {
             description: "AI-powered smart speaker with voice control",
             category: "household",
             specs: {
-                "Quantity" : "2 sets per order"
+                "Quantity" : "2 sets per order",
                 "Power Output": "30W",
                 "Connectivity": "WiFi, Bluetooth 5.0",
                 "Voice Assistant": "Built-in AI assistant",
                 "Battery": "8 hours playback",
                 "Electrictity Consumption": "25W operating, 2W standby",
                 "Warranty": "1 year",
-                "Features": "Multi-room audio, smart home control"
+                "Features": "Multi-room audio, smart home control",
                 "Flagship sound quality": "✔",
                 "Supports Aux" : "✔",
                 "App remote control operated" : "✔"
@@ -201,7 +201,7 @@ const products = {
                 "Features": "Timer, schedule, remote control",
                 "Electrictity Consumption": "1W standby",
                 "Warranty": "1 year",
-                "App": "iOS/Android compatible"
+                "App": "iOS/Android compatible",
                 "Adjustable Charging speed" : "✔",
                 "Voice controls" : "✔"           
             }
