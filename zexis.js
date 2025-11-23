@@ -20,7 +20,7 @@ const products = {
                 "Stable and supportive at any speed":"✔",
                 "Soft landing + powerful toe-off": "✔",
                 "Very Durable": "✔",
-                "Easy wear": "✔'
+                "Easy wear": "✔"
                 
             }
         },
