@@ -35,11 +35,12 @@ const products = {
             colors: ["Black", "Army Green", "Gray"],
             specs: {
                 "Material": "titanium, stainless steel, and ceramic, with the display almost exclusively protected by a sapphire crystal.",
+                "Battery Life ": "3-5 days",
+                "Charging time" : "2 hours",
                 "Weight": "64g to over 90g",
                 "SmartPhone Features" : "✔",
                 "Advance Gps and Navigation": "✔",
                 "Fitness Tracking": "✔",
-                "Exeptional Battery Life ":"✔",
                 "Specialized Sport Modes": "✔",
                 "Durability": "✔",
                 "Easy wear": "✔"
