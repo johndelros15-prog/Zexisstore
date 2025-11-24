@@ -21,6 +21,29 @@ const products = {
                 "Soft landing + powerful toe-off": "✔",
                 "Very Durable": "✔",
                 "Easy wear": "✔"
+            }
+            },
+
+             {
+            id: 1,
+            name: "Zexis Pro Running Shoes",
+            price: 999,
+            image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+            description: "Premium running shoes with advanced cushioning",
+            category: "sportswear",
+            sizes: ["7", "8", "9", "10", "11"],
+            colors: ["Black/White", "Blue/Gray", "Red/Black"],
+            specs: {
+                "Material": "Breathable mesh upper",
+                "Sole": "Rubber outsole with grip pattern",
+                "Cushioning": "EVA midsole",
+                "Weight": "280g per shoe",
+                "High-Rebound Midsole Foam": "Better cushioning",
+                "Feather-light feel": "✔",
+                "Stable and supportive at any speed":"✔",
+                "Soft landing + powerful toe-off": "✔",
+                "Very Durable": "✔",
+                "Easy wear": "✔"
                 
             }
         },
