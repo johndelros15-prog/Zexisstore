@@ -26,23 +26,21 @@ const products = {
 
              {
             id: 1,
-            name: "Zexis Pro Running Shoes",
-            price: 999,
-            image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
-            description: "Premium running shoes with advanced cushioning",
+            name: "Zexis Watch",
+            price: 3199,
+            image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT2G6eFhgQfAap-jtE6qi0lc6IANqgItxqmQ7XT_0OMlFWH5MQJbZ5uZKaXt0YITFAo02Uemnr0M2PaxkClKtzXkpFxuyDL_62l1-HOUI1dTtTZnFC1J-7pY4Ow7boFZi24oGVLj0Q&usqp=CAc",
+            description: "Premium Sports watch with many features",
             category: "sportswear",
-            sizes: ["7", "8", "9", "10", "11"],
-            colors: ["Black/White", "Blue/Gray", "Red/Black"],
+            sizes: [" 28mm", "36mm ", "38mm ", "40mm ", "46mm "],
+            colors: ["Black", "Army Green", "Gray"],
             specs: {
-                "Material": "Breathable mesh upper",
-                "Sole": "Rubber outsole with grip pattern",
-                "Cushioning": "EVA midsole",
-                "Weight": "280g per shoe",
-                "High-Rebound Midsole Foam": "Better cushioning",
-                "Feather-light feel": "✔",
-                "Stable and supportive at any speed":"✔",
-                "Soft landing + powerful toe-off": "✔",
-                "Very Durable": "✔",
+                "Material": "titanium, stainless steel, and ceramic, with the display almost exclusively protected by a sapphire crystal.",
+                "Weight": "64g to over 90g",
+                "Advance Gps and Navigation": "✔",
+                "Fitness Tracking": "✔",
+                "Exeptional Battery Life ":"✔",
+                "Specialized Sport Modes": "✔",
+                "Durability": "✔",
                 "Easy wear": "✔"
                 
             }
