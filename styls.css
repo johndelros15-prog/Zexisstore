@@ -280,10 +280,18 @@ body {
 }
 
 .product-detail-image {
-    width: 300px;
+    /*width: 300px;
     height: 300px;
     object-fit: cover;
+    border-radius: 15px;*/
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
     border-radius: 15px;
+    margin: 0 auto 1rem auto;
+    display: block;
+}
 }
 
 .product-detail-info h3 {
