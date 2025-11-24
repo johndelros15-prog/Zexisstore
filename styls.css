@@ -291,6 +291,8 @@ body {
     border-radius: 15px;
     margin: 0 auto 1rem auto;
     display: block;
+}
+    .product-detail-image {
     flex-direction: column;
     align-items: center;
 }
