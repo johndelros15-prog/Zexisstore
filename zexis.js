@@ -28,7 +28,7 @@ const products = {
             id: 16,
             name: "Zexis Sports Watch",
             price: 3199,
-            image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTw-658lX52Fkb1RU-pbBOsBx5sqjMbDRzU5kc0zchsAbTtyhmwUXDHaObjWsrXVICan1vXpu6B5iVeV6HxuhVQX1iBwdf2JM6boe5VIz6R231hZYF4FurfIA",
+            image: "https://ph.garmin.com/m/ph/g/products/venu-x1-black-cf-lg.jpg",
             description: "Premium Sports watch with many features",
             category: "sportswear",
             sizes: [" 28mm", "36mm ", "38mm ", "40mm ", "46mm "],
