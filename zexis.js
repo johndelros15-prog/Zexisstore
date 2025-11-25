@@ -161,7 +161,6 @@ const products = {
                 "Voice Assistant": "Built-in AI assistant",
                 "Battery": "8 hours playback",
                 "Electrictity Consumption": "25W operating, 2W standby",
-                "Warranty": "1 year",
                 "Features": "Multi-room audio, smart home control",
                 "Flagship sound quality": "✔",
                 "Supports Aux" : "✔",
@@ -203,7 +202,6 @@ const products = {
                 "Lifespan": "25,000 hours",
                 "Connectivity": "WiFi 2.4GHz",
                 "Electrictity Consumption": "9W per bulb",
-                "Warranty": "2 years",
                 "Features": "Voice control, scheduling",
                 "Clap turn on-off function" : "✔",
                 "Adjustable color temperature" : "✔",
@@ -223,7 +221,6 @@ const products = {
                 "Connectivity": "WiFi and Bluetooth",
                 "Features": "Timer, schedule, remote control",
                 "Electrictity Consumption": "1W standby",
-                "Warranty": "1 year",
                 "App": "iOS/Android compatible",
                 "Adjustable Charging speed" : "✔",
                 "Voice controls" : "✔"           
