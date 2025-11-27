@@ -3,7 +3,7 @@ const products = {
     sportswear: [
         {
             id: 1,
-            name: "Zexis Pro Running Shoes",
+            name: "Nike Pro Running Shoes",
             price: 999,
             image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
             description: "Premium running shoes with advanced cushioning",
