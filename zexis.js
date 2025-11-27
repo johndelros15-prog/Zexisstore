@@ -22,9 +22,9 @@ const products = {
                 "Very Durable": "✔",
                 "Easy wear": "✔"
             }
-            },
+            
 
-             {
+            /* {
             id: 16,
             name: "Zexis Sports Watch",
             price: 3199,
@@ -45,7 +45,7 @@ const products = {
                 "Durability": "✔",
                 "Easy wear": "✔"
                 
-            }
+            }*/
         },
         {
             id: 2,
